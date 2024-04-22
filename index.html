@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+   }
+   body{
+    background: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+   }
+   .container{
+    width: 350px;
+    height: 581px;
+    background: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   }
+   img{
+    border-radius: 50%;
+    width: 100px;
+   }
+   h1{
+    font-size: 26px;
+    margin-top: 20px;
+   }
+   h3{
+    font-size: 15px;
+    color: hsl(75, 94%, 57%);
+   }
+   p{
+    margin: 10px;
+    font-size: 13px;
+    color:  hsla(0, 0%, 100%, 0.521);
+   }
+   .lista{
+    width: 250px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   }
+   ul{
+   
+     gap: 10px;
+     display: flex;
+     flex-direction: column;
+   }
+  
+  
+   .link{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    width: 250px;
+    height: 40px;
+ border-radius: 10px;
+ display: flex;
+ background:hsl(0, 0%, 20%) ;
+ justify-content: center;
+ align-items: center;
+ font-weight: bolder;
+    
+        
+   } 
+   a:hover{
+    color:hsl(0, 0%, 8%) ;
+    background:hsl(75, 94%, 57%) ;
+    font-weight: bolder;
+   cursor: pointer;
+   }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="">
+    <h1> Jessica Randall</h1>
+    <h3>London, United Kingdom</h3>
+    <p>"Front-end developer and avid reader."</p>
+    <div class="lista">
+      <ul>
+         <a   class="link" href=""> GitHub</a>
+         <a class="link" href="">Frontend Mentor</a>
+         <a class="link"href="">LinkedIn</a>
+         <a  class="link"href="">Twitter</a>
+         <a  class="link"  href=""> Instagram</a>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
